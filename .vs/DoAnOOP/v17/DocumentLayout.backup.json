@@ -1,0 +1,485 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formnhapxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formnhapxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\formtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formtrangchu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\formtrangchu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formtrangchu.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\formnhapxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formnhapxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\hanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\formgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\khohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\cuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\cuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formphieuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formphieuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formphieuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formphieuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formnhacungcap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formgiaodienchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formcuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formcuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formcuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formcuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formcuahang.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formcuahang.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formcuahang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formcuahang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnCK.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnCK.csproj|solutionrelative:doanck\\formhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formhanghoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\hoadon1component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\hoadon1component.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\hanghoaduocchoncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\hanghoaduocchoncomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\doanck\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|c:\\users\\admin\\onedrive\\desktop\\oop-fix-2\\doanck\\formnhapxuat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82D4C93E-70F7-4346-BB47-7AFCDD028DD9}|DoAnCK\\DoAnOOP.csproj|solutionrelative:doanck\\formnhapxuat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 19,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FormNhapXuat.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhapXuat.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormNhapXuat.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhapXuat.Designer.cs",
+              "RelativeToolTip": "DoAnCK\\FormNhapXuat.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:57:56.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\HangHoa.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\HangHoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\HangHoa.cs",
+              "RelativeToolTip": "DoAnCK\\HangHoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:54:00.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormNhapXuat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhapXuat.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormNhapXuat.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhapXuat.cs [Design]",
+              "RelativeToolTip": "DoAnCK\\FormNhapXuat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:52:47.753Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormTrangChu.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormTrangChu.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormTrangChu.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormTrangChu.Designer.cs",
+              "RelativeToolTip": "DoAnCK\\FormTrangChu.Designer.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwGAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:52:15.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormTrangChu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormTrangChu.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormTrangChu.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormTrangChu.cs [Design]",
+              "RelativeToolTip": "DoAnCK\\FormTrangChu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:49:52.486Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormGiaoDienChinh.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormGiaoDienChinh.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormGiaoDienChinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormGiaoDienChinh.cs [Design]",
+              "RelativeToolTip": "DoAnCK\\FormGiaoDienChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T10:49:37.6Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KhoHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\KhoHang.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\KhoHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\KhoHang.cs",
+              "RelativeToolTip": "DoAnCK\\KhoHang.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAmwIsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:45:46.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\NhanVien.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\NhanVien.cs",
+              "RelativeToolTip": "DoAnCK\\NhanVien.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:44:51.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CuaHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\CuaHang.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\CuaHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\CuaHang.cs",
+              "RelativeToolTip": "DoAnCK\\CuaHang.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:43:11.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormTrangChu.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormTrangChu.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormTrangChu.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormTrangChu.cs",
+              "RelativeToolTip": "DoAnCK\\FormTrangChu.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAtwDYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:40:25.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormPhieuHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormPhieuHoaDon.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormPhieuHoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormPhieuHoaDon.cs",
+              "RelativeToolTip": "DoAnCK\\FormPhieuHoaDon.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:39:53.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormPhieuHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormPhieuHoaDon.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormPhieuHoaDon.cs",
+              "ToolTip": "E:\\[OOP-Fix1]\\OOP-fix-2\\DoAnCK\\FormPhieuHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:39:50.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormNhapXuat.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhapXuat.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormNhapXuat.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhapXuat.cs",
+              "RelativeToolTip": "DoAnCK\\FormNhapXuat.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAtwHgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:28:20.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormNhaCungCap.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhaCungCap.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormNhaCungCap.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormNhaCungCap.cs",
+              "RelativeToolTip": "DoAnCK\\FormNhaCungCap.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAIwCoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:27:42.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\Program.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\Program.cs",
+              "RelativeToolTip": "DoAnCK\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:00:34.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormHoaDon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHoaDon.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormHoaDon.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHoaDon.cs",
+              "RelativeToolTip": "DoAnCK\\FormHoaDon.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwEMAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:26:52.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormGiaoDienChinh.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormGiaoDienChinh.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormGiaoDienChinh.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormGiaoDienChinh.cs",
+              "RelativeToolTip": "DoAnCK\\FormGiaoDienChinh.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAcwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:18:03.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormDangNhap.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormDangNhap.cs",
+              "RelativeToolTip": "DoAnCK\\FormDangNhap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:17:41.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormDangNhap.cs",
+              "ToolTip": "E:\\[OOP-Fix1]\\OOP-fix-2\\DoAnCK\\FormDangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:17:37.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormHangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHangHoa.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormHangHoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHangHoa.cs",
+              "RelativeToolTip": "DoAnCK\\FormHangHoa.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAD4v0YAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:14:55.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FormCuaHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormCuaHang.cs",
+              "ToolTip": "E:\\[OOP-Fix1]\\OOP-fix-2\\DoAnCK\\FormCuaHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:16:11.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FormCuaHang.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.resx",
+              "RelativeDocumentMoniker": "DoAnCK\\FormCuaHang.resx",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.resx",
+              "RelativeToolTip": "DoAnCK\\FormCuaHang.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-03-25T08:16:09.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FormCuaHang.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.Designer.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormCuaHang.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.Designer.cs",
+              "RelativeToolTip": "DoAnCK\\FormCuaHang.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:16:06.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FormCuaHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormCuaHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormCuaHang.cs",
+              "RelativeToolTip": "DoAnCK\\FormCuaHang.cs",
+              "ViewState": "AgIAAJoAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T08:15:59.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "FormHangHoa.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHangHoa.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormHangHoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHangHoa.cs [Design]",
+              "RelativeToolTip": "DoAnCK\\FormHangHoa.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:14:56.193Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HoaDon1Component.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\HoaDon1Component.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\HoaDon1Component.cs",
+              "ToolTip": "C:\\Users\\Admin\\Music\\OOP-project-master - Copy\\DoAnCK\\HoaDon1Component.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\Music\\OOP-project-master - Copy\\DoAnCK\\HoaDon1Component.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:02:47.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "HangHoaDuocChonComponent.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\HangHoaDuocChonComponent.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\HangHoaDuocChonComponent.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\HangHoaDuocChonComponent.cs [Design]",
+              "RelativeToolTip": "DoAnCK\\HangHoaDuocChonComponent.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T07:01:36.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FormHoaDon.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHoaDon.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormHoaDon.cs",
+              "ToolTip": "E:\\[OOP-Fix1]\\OOP-fix-2\\DoAnCK\\FormHoaDon.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T06:52:16.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FormHangHoa.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-fix-2\\DoAnCK\\FormHangHoa.cs",
+              "RelativeDocumentMoniker": "DoAnCK\\FormHangHoa.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Desktop\\OOP-project-master\\DoAnCK\\FormHangHoa.cs*",
+              "RelativeToolTip": "..\\OOP-project-master\\DoAnCK\\FormHangHoa.cs*",
+              "ViewState": "AgIAAMoAAAAAAAAAAADwv5UAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T04:04:05.53Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

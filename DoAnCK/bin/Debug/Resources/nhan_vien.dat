@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfNhanVien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <NhanVien>
+    <id_nv>NV0001</id_nv>
+    <ten_nv>Lee Min Hoo</ten_nv>
+    <tuoi>19</tuoi>
+    <gioi_tinh>true</gioi_tinh>
+    <dia_chi_nv>Sài Gòn</dia_chi_nv>
+    <username>nv0001</username>
+    <password>123456789</password>
+  </NhanVien>
+  <NhanVien>
+    <id_nv>NV0002</id_nv>
+    <ten_nv>Cristiano Ronaldo</ten_nv>
+    <tuoi>37</tuoi>
+    <gioi_tinh>false</gioi_tinh>
+    <dia_chi_nv>Sài Gòn</dia_chi_nv>
+    <username>nv0002</username>
+    <password>123456789</password>
+  </NhanVien>
+  <NhanVien>
+    <id_nv>NV0003</id_nv>
+    <ten_nv>Lionel Messi</ten_nv>
+    <tuoi>35</tuoi>
+    <gioi_tinh>true</gioi_tinh>
+    <dia_chi_nv>Sài Gòn</dia_chi_nv>
+    <username>nv0003</username>
+    <password>123456789</password>
+  </NhanVien>
+  <NhanVien>
+    <id_nv>NV0004</id_nv>
+    <ten_nv>Nguyễn Công Phượng</ten_nv>
+    <tuoi>35</tuoi>
+    <gioi_tinh>true</gioi_tinh>
+    <dia_chi_nv>Sài Gòn</dia_chi_nv>
+    <username>nv0004</username>
+    <password>123456789</password>
+  </NhanVien>
+</ArrayOfNhanVien>

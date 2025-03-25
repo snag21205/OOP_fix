@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHoaDonXuat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HoaDonXuat>
+    <id_hoa_don>HDX1</id_hoa_don>
+    <ngay_tao_don>2025-03-25T16:00:54.3328002+07:00</ngay_tao_don>
+    <qlnx>
+      <ds_hang_hoa>
+        <HangHoa xsi:type="DienTu">
+          <id>DT03</id>
+          <ten_hang>Tai nghe Sony</ten_hang>
+          <so_luong>1</so_luong>
+          <don_gia>3000000</don_gia>
+          <img>.\Resources\hang hoa img\dien tu\tai_nghe.jpg</img>
+        </HangHoa>
+      </ds_hang_hoa>
+    </qlnx>
+    <nv_lap>
+      <id_nv>NV0001</id_nv>
+      <ten_nv>Lee Min Hoo</ten_nv>
+      <tuoi>19</tuoi>
+      <gioi_tinh>true</gioi_tinh>
+      <dia_chi_nv>Sài Gòn</dia_chi_nv>
+      <username>nv0001</username>
+      <password>123456789</password>
+    </nv_lap>
+    <tong_tien>3000000</tong_tien>
+    <cua_hang>
+      <id_ch>CH0001</id_ch>
+      <ten_ch>Công ty TNHH Nam Bình</ten_ch>
+      <sdt_ch>0978654321</sdt_ch>
+      <dia_chi_ch>Phú Nhuận</dia_chi_ch>
+    </cua_hang>
+  </HoaDonXuat>
+</ArrayOfHoaDonXuat>

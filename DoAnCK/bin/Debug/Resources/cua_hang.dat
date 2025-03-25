@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCuaHang xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CuaHang>
+    <id_ch>CH0001</id_ch>
+    <ten_ch>Công ty TNHH Nam Bình</ten_ch>
+    <sdt_ch>0978654321</sdt_ch>
+    <dia_chi_ch>Phú Nhuận</dia_chi_ch>
+  </CuaHang>
+</ArrayOfCuaHang>

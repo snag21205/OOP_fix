@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHoaDonNhap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HoaDonNhap>
+    <id_hoa_don>HDN1</id_hoa_don>
+    <ngay_tao_don>2025-03-25T15:36:20.8439162+07:00</ngay_tao_don>
+    <qlnx>
+      <ds_hang_hoa>
+        <HangHoa xsi:type="DienTu">
+          <id>DT02</id>
+          <ten_hang>Laptop Dell XPS</ten_hang>
+          <so_luong>1</so_luong>
+          <don_gia>20000000</don_gia>
+          <img>.\Resources\hang hoa img\dien tu\laptop.jpg</img>
+        </HangHoa>
+      </ds_hang_hoa>
+    </qlnx>
+    <nv_lap>
+      <id_nv>NV0001</id_nv>
+      <ten_nv>Lee Min Hoo</ten_nv>
+      <tuoi>19</tuoi>
+      <gioi_tinh>true</gioi_tinh>
+      <dia_chi_nv>Sài Gòn</dia_chi_nv>
+      <username>nv0001</username>
+      <password>123456789</password>
+    </nv_lap>
+    <tong_tien>20000000</tong_tien>
+    <nha_cung_cap>
+      <id_ncc>NCC003</id_ncc>
+      <ten_ncc>Tập đoàn Vinamilk</ten_ncc>
+      <sdt_ncc>0566544233</sdt_ncc>
+      <dia_chi_ncc>Bình Chánh</dia_chi_ncc>
+    </nha_cung_cap>
+  </HoaDonNhap>
+  <HoaDonNhap>
+    <id_hoa_don>HDN2</id_hoa_don>
+    <ngay_tao_don>2025-03-25T15:36:51.4634499+07:00</ngay_tao_don>
+    <qlnx>
+      <ds_hang_hoa>
+        <HangHoa xsi:type="DienTu">
+          <id>DT01</id>
+          <ten_hang>Iphone 16</ten_hang>
+          <so_luong>1</so_luong>
+          <don_gia>100000000</don_gia>
+          <img>.\Resources\hang hoa img\dien tu\iphone.jpg</img>
+        </HangHoa>
+      </ds_hang_hoa>
+    </qlnx>
+    <nv_lap>
+      <id_nv>NV0001</id_nv>
+      <ten_nv>Lee Min Hoo</ten_nv>
+      <tuoi>19</tuoi>
+      <gioi_tinh>true</gioi_tinh>
+      <dia_chi_nv>Sài Gòn</dia_chi_nv>
+      <username>nv0001</username>
+      <password>123456789</password>
+    </nv_lap>
+    <tong_tien>100000000</tong_tien>
+    <nha_cung_cap>
+      <id_ncc>NCC001</id_ncc>
+      <ten_ncc>Tập đoàn Vingroup</ten_ncc>
+      <sdt_ncc>0153654356</sdt_ncc>
+      <dia_chi_ncc>Bình Dương</dia_chi_ncc>
+    </nha_cung_cap>
+  </HoaDonNhap>
+</ArrayOfHoaDonNhap>
