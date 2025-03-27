@@ -4,12 +4,37 @@ using System.Runtime.Serialization;
 [Serializable]
 public class NhaCungCap : ISerializable
 {
-    public string id_ncc { get; set; }
-    public string ten_ncc { get; set; }
-    public string sdt_ncc { get; set; }
-    public string dia_chi_ncc { get; set; }
+    private string id_ncc;
+    private string ten_ncc;
+    private string sdt_ncc;
+    private string dia_chi_ncc;
+
+    public string IdNcc
+    {
+        get { return id_ncc; }
+        set { id_ncc = value; }
+    }
+
+    public string TenNcc
+    {
+        get { return ten_ncc; }
+        set { ten_ncc = value; }
+    }
+
+    public string SdtNcc
+    {
+        get { return sdt_ncc; }
+        set { sdt_ncc = value; }
+    }
+
+    public string DiaChiNcc
+    {
+        get { return dia_chi_ncc; }
+        set { dia_chi_ncc = value; }
+    }
 
     private NhaCungCap() { }
+
     public NhaCungCap(string id_ncc, string ten_ncc, string sdt_ncc, string dia_chi_ncc)
     {
         this.id_ncc = id_ncc;
@@ -17,6 +42,7 @@ public class NhaCungCap : ISerializable
         this.sdt_ncc = sdt_ncc;
         this.dia_chi_ncc = dia_chi_ncc;
     }
+
     public void GetObjectData(SerializationInfo info, StreamingContext context)
     {
         info.AddValue("id_ncc", id_ncc);

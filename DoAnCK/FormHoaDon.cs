@@ -28,7 +28,15 @@ namespace DoAnCK
                     DanhSachHoaDon_dgv.Columns["idnccch_hd"].HeaderText = "ID nhà cung cấp";
                     foreach (HoaDonNhap hdn in kho.ds_hoa_don_nhap)
                     {
-                        DanhSachHoaDon_dgv.Rows.Add(hdn.id_hoa_don, hdn.ngay_tao_don, hdn.nv_lap.id_nv, hdn.nha_cung_cap.id_ncc, hdn.tong_tien);
+                        if (hdn.NvLap != null && hdn.NhaCungCap != null)
+                        {
+                            DanhSachHoaDon_dgv.Rows.Add(hdn.IdHoaDon, hdn.NgayTaoDon, hdn.NvLap.IdNv, hdn.NhaCungCap.IdNcc, hdn.TongTien);
+                        }
+                        else
+                        {
+                            // Handle the case where NvLap or NhaCungCap is null
+                            MessageBox.Show("Có hóa đơn lỗi hãy kiểm tra dữ liệu được lưu.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                     DanhSachHoaDon_dgv.Enabled = DanhSachHoaDon_dgv.Rows.Count > 0;
                 }
@@ -38,7 +46,16 @@ namespace DoAnCK
                     DanhSachHoaDon_dgv.Columns["idnccch_hd"].HeaderText = "ID cửa hàng";
                     foreach (HoaDonXuat hdx in kho.ds_hoa_don_xuat)
                     {
-                        DanhSachHoaDon_dgv.Rows.Add(hdx.id_hoa_don, hdx.ngay_tao_don, hdx.nv_lap.id_nv, hdx.cua_hang.id_ch, hdx.tong_tien);
+
+                        if (hdx.NvLap != null && hdx.CuaHang != null)
+                        {
+                            DanhSachHoaDon_dgv.Rows.Add(hdx.IdHoaDon, hdx.NgayTaoDon, hdx.NvLap.IdNv, hdx.CuaHang.IdCh, hdx.TongTien);
+                        }
+                        else
+                        {                           
+                            MessageBox.Show("Có hóa đơn lỗi hãy kiểm tra dữ liệu được lưu.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+
                     }
                     DanhSachHoaDon_dgv.Enabled = DanhSachHoaDon_dgv.Rows.Count > 0;
                 }
@@ -60,10 +77,10 @@ namespace DoAnCK
                     FormPhieuHoaDon formHoaDon = new FormPhieuHoaDon();
                     formHoaDon.hd_lbl.Text = "Hoá Đơn Nhập";
                     formHoaDon.ngaylap_lbl.Text = "Ngày lập: " + DateTime.Now.ToString();
-                    formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + hdn.nv_lap.id_nv;
-                    formHoaDon.idhd_lbl.Text = "ID hoá đơn: " + hdn.id_hoa_don;
-                    formHoaDon.idncc_ch_lbl.Text = "ID nhà cung cấp: " + hdn.nha_cung_cap.id_ncc;
-                    formHoaDon.them_dshh(hdn.qlnx);
+                    formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + hdn.NvLap.IdNv;
+                    formHoaDon.idhd_lbl.Text = "ID hoá đơn: " + hdn.IdHoaDon;
+                    formHoaDon.idncc_ch_lbl.Text = "ID nhà cung cấp: " + hdn.NhaCungCap.IdNcc;
+                    formHoaDon.them_dshh(hdn.Qlnx);
                     formHoaDon.Show();
                 }
                 else
@@ -72,10 +89,10 @@ namespace DoAnCK
                     FormPhieuHoaDon formHoaDon = new FormPhieuHoaDon();
                     formHoaDon.hd_lbl.Text = "Hoá Đơn Xuất";
                     formHoaDon.ngaylap_lbl.Text = "Ngày lập: " + DateTime.Now.ToString();
-                    formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + hdx.nv_lap.id_nv;
-                    formHoaDon.idhd_lbl.Text = "ID hoá đơn: " + hdx.id_hoa_don;
-                    formHoaDon.idncc_ch_lbl.Text = "ID cửa hàng: " + hdx.cua_hang.id_ch;
-                    formHoaDon.them_dshh(hdx.qlnx);
+                    formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + hdx.NvLap.IdNv;
+                    formHoaDon.idhd_lbl.Text = "ID hoá đơn: " + hdx.IdHoaDon;
+                    formHoaDon.idncc_ch_lbl.Text = "ID cửa hàng: " + hdx.CuaHang.IdCh;
+                    formHoaDon.them_dshh(hdx.Qlnx);
                     formHoaDon.Show();
                 }
             }

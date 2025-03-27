@@ -15,12 +15,12 @@ namespace DoAnCK
         public HangHoa hh;
         public void SetProductInfo(HangHoa hh)
         {
-            ten_lbl.Text = hh.ten_hang;
-            dongia_lbl.Text = String.Format("{0:N0}", hh.don_gia);
-            soluong_lbl.Text = "SL: " + hh.so_luong.ToString();
-            if (hh.img != null)
+            ten_lbl.Text = hh.TenHang;
+            dongia_lbl.Text = String.Format("{0:N0}", hh.DonGia);
+            soluong_lbl.Text = "SL: " + hh.SoLuong.ToString();
+            if (hh.Img != null)
             {
-                hanghoa_img.ImageLocation = hh.img;
+                hanghoa_img.ImageLocation = hh.Img;
             }
             else
             {

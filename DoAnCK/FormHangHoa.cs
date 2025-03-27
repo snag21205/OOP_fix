@@ -69,7 +69,7 @@ namespace DoAnCK
                 HangHoa foundHangHoa = null;
                 for (int i = 0; i < kho.ds_hang_hoa.Count; i++)
                 {
-                    if (kho.ds_hang_hoa[i].id == IdHangHoa_tb.Text)
+                    if (kho.ds_hang_hoa[i].Id == IdHangHoa_tb.Text)
                     {
                         foundHangHoa = kho.ds_hang_hoa[i];
                         break;
@@ -166,7 +166,7 @@ namespace DoAnCK
                     HangHoa foundHangHoa = null;
                     for (int i = 0; i < kho.ds_hang_hoa.Count; i++)
                     {
-                        if (kho.ds_hang_hoa[i].id == hh.id)
+                        if (kho.ds_hang_hoa[i].Id == hh.Id)
                         {
                             foundHangHoa = kho.ds_hang_hoa[i];
                             break;
@@ -204,15 +204,15 @@ namespace DoAnCK
                 }
                 else
                 {
-                    if (hh.img != null)
+                    if (hh.Img != null)
                     {
-                        AnhHangHoa_bt.Image = Image.FromFile(hh.img);
+                        AnhHangHoa_bt.Image = Image.FromFile(hh.Img);
                     }
                     ThemAnh_bt.Visible = false;
-                    IdHangHoa_tb.Text = hh.id;
-                    TenHangHoa_tb.Text = hh.ten_hang;
-                    SoLuong_tb.Text = hh.so_luong.ToString();
-                    DonGia_tb.Text = hh.don_gia.ToString();
+                    IdHangHoa_tb.Text = hh.Id;
+                    TenHangHoa_tb.Text = hh.TenHang;
+                    SoLuong_tb.Text = hh.SoLuong.ToString();
+                    DonGia_tb.Text = hh.DonGia.ToString();
                     if (hh is DienTu)
                     {
                         LoaiHangHoa_cb.Text = "Điện tử";

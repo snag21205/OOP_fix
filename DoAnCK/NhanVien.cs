@@ -4,15 +4,58 @@ using System.Runtime.Serialization;
 [Serializable]
 public class NhanVien : ISerializable
 {
-    public string id_nv { get; set; }
-    public string ten_nv { get; set; }
-    public uint tuoi { get; set; }
-    public bool gioi_tinh { get; set; }
-    public string dia_chi_nv { get; set; }
-    public string username { get; set; }
-    public string password { get; set; }
+    private string id_nv;
+    private string ten_nv;
+    private uint tuoi;
+    private bool gioi_tinh;
+    private string dia_chi_nv;
+    private string username;
+    private string password;
+
+    public string IdNv
+    {
+        get { return id_nv; }
+        set { id_nv = value; }
+    }
+
+    public string TenNv
+    {
+        get { return ten_nv; }
+        set { ten_nv = value; }
+    }
+
+    public uint Tuoi
+    {
+        get { return tuoi; }
+        set { tuoi = value; }
+    }
+
+    public bool GioiTinh
+    {
+        get { return gioi_tinh; }
+        set { gioi_tinh = value; }
+    }
+
+    public string DiaChiNv
+    {
+        get { return dia_chi_nv; }
+        set { dia_chi_nv = value; }
+    }
+
+    public string Username
+    {
+        get { return username; }
+        set { username = value; }
+    }
+
+    public string Password
+    {
+        get { return password; }
+        set { password = value; }
+    }
 
     public NhanVien() { }
+
     public NhanVien(string id_nv, string ten_nv, uint tuoi, bool gioi_tinh, string dia_chi_nv, string username, string password)
     {
         this.id_nv = id_nv;
@@ -23,7 +66,6 @@ public class NhanVien : ISerializable
         this.username = username;
         this.password = password;
     }
-
 
     public void GetObjectData(SerializationInfo info, StreamingContext context)
     {

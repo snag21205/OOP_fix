@@ -26,8 +26,8 @@ namespace DoAnCK
                 ulong so_luong = 0;
                 foreach (HangHoa hh in qlnx.ds_hang_hoa)
                 {
-                    tong_tien += hh.don_gia * hh.so_luong;
-                    so_luong += hh.so_luong;
+                    tong_tien += hh.DonGia * hh.SoLuong;
+                    so_luong += hh.SoLuong;
                 }
 
                 HoaDon2Component billTailComponent = new HoaDon2Component();

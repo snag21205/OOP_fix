@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfNhanVien xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <NhanVien>
-    <id_nv>NV0001</id_nv>
-    <ten_nv>Lee Min Hoo</ten_nv>
-    <tuoi>19</tuoi>
-    <gioi_tinh>true</gioi_tinh>
-    <dia_chi_nv>Sài Gòn</dia_chi_nv>
-    <username>nv0001</username>
-    <password>123456789</password>
+    <IdNv>NV0001</IdNv>
+    <TenNv>Lee Min Hoo</TenNv>
+    <Tuoi>19</Tuoi>
+    <GioiTinh>true</GioiTinh>
+    <DiaChiNv>Sài Gòn</DiaChiNv>
+    <Username>nv0001</Username>
+    <Password>123456789</Password>
   </NhanVien>
   <NhanVien>
-    <id_nv>NV0002</id_nv>
-    <ten_nv>Cristiano Ronaldo</ten_nv>
-    <tuoi>37</tuoi>
-    <gioi_tinh>false</gioi_tinh>
-    <dia_chi_nv>Sài Gòn</dia_chi_nv>
-    <username>nv0002</username>
-    <password>123456789</password>
+    <IdNv>NV0002</IdNv>
+    <TenNv>Cristiano Ronaldo</TenNv>
+    <Tuoi>37</Tuoi>
+    <GioiTinh>false</GioiTinh>
+    <DiaChiNv>Sài Gòn</DiaChiNv>
+    <Username>nv0002</Username>
+    <Password>123456789</Password>
   </NhanVien>
   <NhanVien>
-    <id_nv>NV0003</id_nv>
-    <ten_nv>Lionel Messi</ten_nv>
-    <tuoi>35</tuoi>
-    <gioi_tinh>true</gioi_tinh>
-    <dia_chi_nv>Sài Gòn</dia_chi_nv>
-    <username>nv0003</username>
-    <password>123456789</password>
+    <IdNv>NV0003</IdNv>
+    <TenNv>Lionel Messi</TenNv>
+    <Tuoi>35</Tuoi>
+    <GioiTinh>true</GioiTinh>
+    <DiaChiNv>Sài Gòn</DiaChiNv>
+    <Username>nv0003</Username>
+    <Password>123456789</Password>
   </NhanVien>
   <NhanVien>
-    <id_nv>NV0004</id_nv>
-    <ten_nv>Nguyễn Công Phượng</ten_nv>
-    <tuoi>35</tuoi>
-    <gioi_tinh>true</gioi_tinh>
-    <dia_chi_nv>Sài Gòn</dia_chi_nv>
-    <username>nv0004</username>
-    <password>123456789</password>
+    <IdNv>NV0004</IdNv>
+    <TenNv>Nguyễn Công Phượng</TenNv>
+    <Tuoi>35</Tuoi>
+    <GioiTinh>true</GioiTinh>
+    <DiaChiNv>Sài Gòn</DiaChiNv>
+    <Username>nv0004</Username>
+    <Password>123456789</Password>
   </NhanVien>
 </ArrayOfNhanVien>

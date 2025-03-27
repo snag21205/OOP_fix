@@ -9,11 +9,41 @@ using System.Xml.Serialization;
 [Serializable]
 public abstract class HangHoa : ISerializable, ICloneable
 {
-    public string id { get; set; }
-    public string ten_hang { get; set; }
-    public uint so_luong { get; set; }
-    public ulong don_gia { get; set; }
-    public string img { get; set; }
+    private string id;
+    private string ten_hang;
+    private uint so_luong;
+    private ulong don_gia;
+    private string img;
+
+    public string Id
+    {
+        get { return id; }
+        set { id = value; }
+    }
+
+    public string TenHang
+    {
+        get { return ten_hang; }
+        set { ten_hang = value; }
+    }
+
+    public uint SoLuong
+    {
+        get { return so_luong; }
+        set { so_luong = value; }
+    }
+
+    public ulong DonGia
+    {
+        get { return don_gia; }
+        set { don_gia = value; }
+    }
+
+    public string Img
+    {
+        get { return img; }
+        set { img = value; }
+    }
 
     protected HangHoa() { }
 
@@ -34,7 +64,6 @@ public abstract class HangHoa : ISerializable, ICloneable
         clone.don_gia = this.don_gia;
         return clone;
     }
-
 
     public virtual void GetObjectData(SerializationInfo info, StreamingContext context)
     {
@@ -62,7 +91,6 @@ public class DienTu : HangHoa
 
     public DienTu(string id, string ten_hang, uint so_luong, ulong don_gia, string img) : base(id, ten_hang, so_luong, don_gia, img)
     {
-
     }
 
     public override void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -72,7 +100,6 @@ public class DienTu : HangHoa
 
     private DienTu(SerializationInfo info, StreamingContext context) : base(info, context)
     {
-
     }
 }
 
@@ -83,7 +110,6 @@ public class GiaDung : HangHoa
 
     public GiaDung(string id, string ten_hang, uint so_luong, ulong don_gia, string img) : base(id, ten_hang, so_luong, don_gia, img)
     {
-
     }
 
     public override void GetObjectData(SerializationInfo info, StreamingContext context)
@@ -93,7 +119,6 @@ public class GiaDung : HangHoa
 
     private GiaDung(SerializationInfo info, StreamingContext context) : base(info, context)
     {
-
     }
 }
 
@@ -104,9 +129,7 @@ public class ThoiTrang : HangHoa
 
     public ThoiTrang(string id, string ten_hang, uint so_luong, ulong don_gia, string img) : base(id, ten_hang, so_luong, don_gia, img)
     {
-
     }
-
 
     public override void GetObjectData(SerializationInfo info, StreamingContext context)
     {
@@ -115,6 +138,5 @@ public class ThoiTrang : HangHoa
 
     private ThoiTrang(SerializationInfo info, StreamingContext context) : base(info, context)
     {
-
     }
 }

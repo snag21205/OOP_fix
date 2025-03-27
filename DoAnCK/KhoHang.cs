@@ -19,8 +19,8 @@ namespace DoAnCK
             for (int i = 0; i < qlnx.ds_hang_hoa.Count; i++)
             {
                 HangHoa hh = qlnx.ds_hang_hoa[i];
-                HangHoa hh_kho = FindHangHoaById(hh.id);
-                if (hh.so_luong > hh_kho.so_luong)
+                HangHoa hh_kho = FindHangHoaById(hh.Id);
+                if (hh.SoLuong > hh_kho.SoLuong)
                 {
                     return false;
                 }
@@ -33,14 +33,14 @@ namespace DoAnCK
             for (int i = 0; i < qlnx.ds_hang_hoa.Count; i++)
             {
                 HangHoa hanghoa = qlnx.ds_hang_hoa[i];
-                HangHoa hh_kho = FindHangHoaById(hanghoa.id);
+                HangHoa hh_kho = FindHangHoaById(hanghoa.Id);
                 if (isnhap)
                 {
-                    hh_kho.so_luong += hanghoa.so_luong;
+                    hh_kho.SoLuong += hanghoa.SoLuong;
                 }
                 else
                 {
-                    hh_kho.so_luong -= hanghoa.so_luong;
+                    hh_kho.SoLuong -= hanghoa.SoLuong;
                 }
             }
             LuuDanhSachHH();
@@ -51,7 +51,7 @@ namespace DoAnCK
             for (int i = 0; i < ds_nhan_vien.Count; i++)
             {
                 NhanVien nv = ds_nhan_vien[i];
-                if (nv.username == username && nv.password == password)
+                if (nv.Username == username && nv.Password == password)
                 {
                     return nv;
                 }
@@ -107,7 +107,7 @@ namespace DoAnCK
         {
             for (int i = 0; i < ds_hang_hoa.Count; i++)
             {
-                if (ds_hang_hoa[i].id == id)
+                if (ds_hang_hoa[i].Id == id)
                 {
                     return ds_hang_hoa[i];
                 }

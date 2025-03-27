@@ -26,7 +26,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh is DienTu && (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
+                        if (hh is DienTu && (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
                         {
                             HangHoaTrangChuComponent hh_component = new HangHoaTrangChuComponent(this);
                             hh_component.hh = hh;
@@ -39,7 +39,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh is GiaDung && (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
+                        if (hh is GiaDung && (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
                         {
                             HangHoaTrangChuComponent hh_component = new HangHoaTrangChuComponent(this);
                             hh_component.hh = hh;
@@ -52,7 +52,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh is ThoiTrang && (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
+                        if (hh is ThoiTrang && (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
                         {
                             HangHoaTrangChuComponent hh_component = new HangHoaTrangChuComponent(this);
                             hh_component.hh = hh;
@@ -65,7 +65,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search")
+                        if (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search")
                         {
                             HangHoaTrangChuComponent hh_component = new HangHoaTrangChuComponent(this);
                             hh_component.hh = hh;

@@ -1,122 +1,143 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfHangHoa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <HangHoa xsi:type="DienTu">
-    <id>DT01</id>
-    <ten_hang>Iphone 16</ten_hang>
-    <so_luong>32</so_luong>
-    <don_gia>100000000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\iphone.jpg</img>
+    <Id>DT01</Id>
+    <TenHang>Iphone 16</TenHang>
+    <SoLuong>32</SoLuong>
+    <DonGia>100000000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\iphone.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT02</id>
-    <ten_hang>Laptop Dell XPS</ten_hang>
-    <so_luong>18</so_luong>
-    <don_gia>20000000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\laptop.jpg</img>
+    <Id>DT02</Id>
+    <TenHang>Laptop Dell XPS</TenHang>
+    <SoLuong>20</SoLuong>
+    <DonGia>20000000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\laptop.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT03</id>
-    <ten_hang>Tai nghe Sony</ten_hang>
-    <so_luong>12</so_luong>
-    <don_gia>3000000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\tai_nghe.jpg</img>
+    <Id>DT03</Id>
+    <TenHang>Tai nghe Sony</TenHang>
+    <SoLuong>12</SoLuong>
+    <DonGia>3000000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\tai_nghe.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT04</id>
-    <ten_hang>Máy ảnh Canon</ten_hang>
-    <so_luong>15</so_luong>
-    <don_gia>2500000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\may_anh.jpg</img>
+    <Id>DT04</Id>
+    <TenHang>Máy ảnh Canon</TenHang>
+    <SoLuong>15</SoLuong>
+    <DonGia>2500000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\may_anh.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT05</id>
-    <ten_hang>Loa thông minh</ten_hang>
-    <so_luong>10</so_luong>
-    <don_gia>1500000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\loa.jpg</img>
+    <Id>DT05</Id>
+    <TenHang>Loa thông minh</TenHang>
+    <SoLuong>10</SoLuong>
+    <DonGia>1500000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\loa.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT06</id>
-    <ten_hang>Galaxy Watch 5</ten_hang>
-    <so_luong>9</so_luong>
-    <don_gia>5000000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\galaxy_watch.jpg</img>
+    <Id>DT06</Id>
+    <TenHang>Galaxy Watch 5</TenHang>
+    <SoLuong>9</SoLuong>
+    <DonGia>5000000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\galaxy_watch.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT07</id>
-    <ten_hang> iPad Pro M2</ten_hang>
-    <so_luong>5</so_luong>
-    <don_gia>6000000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\ipad.jpg</img>
+    <Id>DT07</Id>
+    <TenHang>iPad Pro M2</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>6000000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\ipad.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
-    <id>DT08</id>
-    <ten_hang>Máy lạnh</ten_hang>
-    <so_luong>7</so_luong>
-    <don_gia>5000000</don_gia>
-    <img>.\Resources\hang hoa img\dien tu\may_lanh.jpg</img>
+    <Id>DT08</Id>
+    <TenHang>Máy lạnh</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>5000000</DonGia>
+    <Img>.\Resources\hang hoa img\dien tu\may_lanh.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD01</id>
-    <ten_hang>Bàn Gỗ Ăn Cơm</ten_hang>
-    <so_luong>15</so_luong>
-    <don_gia>70000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\ban_go.jpg</img>
+    <Id>GD01</Id>
+    <TenHang>Bàn Gỗ Ăn Cơm</TenHang>
+    <SoLuong>15</SoLuong>
+    <DonGia>70000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\ban_go.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD02</id>
-    <ten_hang>Bát sứ ăn cơm</ten_hang>
-    <so_luong>21</so_luong>
-    <don_gia>20000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\bat_su.jpg</img>
+    <Id>GD02</Id>
+    <TenHang>Bát sứ ăn cơm</TenHang>
+    <SoLuong>21</SoLuong>
+    <DonGia>20000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\bat_su.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD03</id>
-    <ten_hang>Đũa sứ Nhật Bản</ten_hang>
-    <so_luong>31</so_luong>
-    <don_gia>30000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\dua_su.jpg</img>
+    <Id>GD03</Id>
+    <TenHang>Đũa sứ Nhật Bản</TenHang>
+    <SoLuong>32</SoLuong>
+    <DonGia>30000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\dua_su.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD04</id>
-    <ten_hang>Dao chống dính</ten_hang>
-    <so_luong>7</so_luong>
-    <don_gia>50000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\dao.jpg</img>
+    <Id>GD04</Id>
+    <TenHang>Dao chống dính</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>50000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\dao.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD05</id>
-    <ten_hang>Ly thủy tinh</ten_hang>
-    <so_luong>31</so_luong>
-    <don_gia>40000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\ly.jpg</img>
+    <Id>GD05</Id>
+    <TenHang>Ly thủy tinh</TenHang>
+    <SoLuong>32</SoLuong>
+    <DonGia>40000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\ly.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD06</id>
-    <ten_hang>Ghế sân vườn</ten_hang>
-    <so_luong>6</so_luong>
-    <don_gia>100000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\ghe.jpg</img>
+    <Id>GD06</Id>
+    <TenHang>Ghế sân vườn</TenHang>
+    <SoLuong>6</SoLuong>
+    <DonGia>100000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\ghe.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD07</id>
-    <ten_hang>Máy xay sinh tố</ten_hang>
-    <so_luong>11</so_luong>
-    <don_gia>50000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\may_xay.jpg</img>
+    <Id>GD07</Id>
+    <TenHang>Máy xay sinh tố</TenHang>
+    <SoLuong>11</SoLuong>
+    <DonGia>50000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\may_xay.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="GiaDung">
-    <id>GD08</id>
-    <ten_hang>Chảo chống dính</ten_hang>
-    <so_luong>6</so_luong>
-    <don_gia>300000</don_gia>
-    <img>.\Resources\hang hoa img\gia dung\chao.jpg</img>
+    <Id>GD08</Id>
+    <TenHang>Chảo chống dính</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>300000</DonGia>
+    <Img>.\Resources\hang hoa img\gia dung\chao.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="ThoiTrang">
-    <id>TR01</id>
-    <ten_hang>Áo Đấu liverpool</ten_hang>
-    <so_luong>0</so_luong>
-    <don_gia>270000</don_gia>
-    <img>.\Resources\hang hoa img\thoi trang\Maillot-Liverpool-Domicile-2006-2007-Torres-2-.jpg</img>
+    <Id>TR01</Id>
+    <TenHang>Áo Đấu liverpool</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>270000</DonGia>
+    <Img>.\Resources\hang hoa img\thoi trang\Maillot-Liverpool-Domicile-2006-2007-Torres-2-.jpg</Img>
+  </HangHoa>
+  <HangHoa xsi:type="ThoiTrang">
+    <Id>TR02</Id>
+    <TenHang>Manchester United retro</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>270000</DonGia>
+    <Img>.\Resources\hang hoa img\thoi trang\Manchester United Retro.jpg</Img>
+  </HangHoa>
+  <HangHoa xsi:type="ThoiTrang">
+    <Id>TR03</Id>
+    <TenHang>Chealse retro</TenHang>
+    <SoLuong>5</SoLuong>
+    <DonGia>270000</DonGia>
+    <Img>.\Resources\hang hoa img\thoi trang\Chealse retro.jpg</Img>
+  </HangHoa>
+  <HangHoa xsi:type="ThoiTrang">
+    <Id>TR04</Id>
+    <TenHang>AC Milan retro</TenHang>
+    <SoLuong>10</SoLuong>
+    <DonGia>270000</DonGia>
+    <Img>.\Resources\hang hoa img\thoi trang\Ac Milan Retro.jpg</Img>
   </HangHoa>
 </ArrayOfHangHoa>

@@ -15,10 +15,10 @@ namespace DoAnCK
 
         public void SetProductInfo()
         {
-            id_lbl.Text = hh.id.ToString();
-            ten_lbl.Text = hh.ten_hang;
-            soluong_tb.Text = hh.so_luong.ToString();
-            thanhtien_lbl.Text = String.Format("{0:N0}",hh.don_gia * hh.so_luong);
+            id_lbl.Text = hh.Id.ToString();
+            ten_lbl.Text = hh.TenHang;
+            soluong_tb.Text = hh.SoLuong.ToString();
+            thanhtien_lbl.Text = String.Format("{0:N0}",hh.DonGia * hh.SoLuong);
         }
 
         #region Event
@@ -31,9 +31,9 @@ namespace DoAnCK
         {
             if (soluong_tb.Text != "")
             {
-                hh.so_luong = Convert.ToUInt32(soluong_tb.Text);
-                soluong_tb.Text = hh.so_luong.ToString();
-                thanhtien_lbl.Text = String.Format("{0:N0}", hh.don_gia * hh.so_luong);
+                hh.SoLuong = Convert.ToUInt32(soluong_tb.Text);
+                soluong_tb.Text = hh.SoLuong.ToString();
+                thanhtien_lbl.Text = String.Format("{0:N0}", hh.DonGia * hh.SoLuong);
                 NhapXuat.nhap_sl(this);
             }
         }

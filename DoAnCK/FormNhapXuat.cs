@@ -28,7 +28,7 @@ namespace DoAnCK
                 {
                     HangHoaDuocChonComponent hh_lo = new HangHoaDuocChonComponent(this);
                     hh_lo.hh = (HangHoa)hh.Clone();
-                    hh_lo.hh.so_luong = 1;
+                    hh_lo.hh.SoLuong = 1;
                     hh_lo.SetProductInfo();
                     HangHoaDuocChon_flp.Controls.Add(hh_lo);
                     qlnx.them_hh(hh_lo.hh);
@@ -59,7 +59,7 @@ namespace DoAnCK
         {
             try
             {
-                qlnx.cap_nhat_sl(hh_lo.hh, hh_lo.hh.so_luong);
+                qlnx.cap_nhat_sl(hh_lo.hh, hh_lo.hh.SoLuong);
                 tinh_tong_tien();
             }
             catch (Exception ex)
@@ -92,7 +92,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh is DienTu && (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
+                        if (hh is DienTu && (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
                         {
                             HangHoaNhapXuatComponent hh_component = new HangHoaNhapXuatComponent(this);
                             hh_component.hh = hh;
@@ -105,7 +105,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh is GiaDung && (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
+                        if (hh is GiaDung && (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
                         {
                             HangHoaNhapXuatComponent hh_component = new HangHoaNhapXuatComponent(this);
                             hh_component.hh = hh;
@@ -118,7 +118,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh is ThoiTrang && (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
+                        if (hh is ThoiTrang && (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search"))
                         {
                             HangHoaNhapXuatComponent hh_component = new HangHoaNhapXuatComponent(this);
                             hh_component.hh = hh;
@@ -131,7 +131,7 @@ namespace DoAnCK
                 {
                     foreach (HangHoa hh in kho.ds_hang_hoa)
                     {
-                        if (hh.ten_hang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search")
+                        if (hh.TenHang.ToLower().Contains(KhungTimKiem_tb.Text) || KhungTimKiem_tb.Text == "Search")
                         {
                             HangHoaNhapXuatComponent hh_component = new HangHoaNhapXuatComponent(this);
                             hh_component.hh = hh;
@@ -181,7 +181,7 @@ namespace DoAnCK
                     NhaCungCap current_ncc = null;
                     for (int i = 0; i < kho.ds_ncc.Count; i++)
                     {
-                        if (kho.ds_ncc[i].ten_ncc == DsNccCh_cb.Text)
+                        if (kho.ds_ncc[i].TenNcc == DsNccCh_cb.Text)
                         {
                             current_ncc = kho.ds_ncc[i];
                             break;
@@ -194,16 +194,16 @@ namespace DoAnCK
 
                         HoaDonNhap hoaDonNhap = new HoaDonNhap(qlnx, null, current_nv, current_ncc, qlnx.tinh_tong_tien());
                         string id_hoa_don = hoaDonNhap.SetID() + (kho.ds_hoa_don_nhap.Count + 1);
-                        hoaDonNhap.id_hoa_don = id_hoa_don;
+                        hoaDonNhap.IdHoaDon = id_hoa_don;
 
                         kho.ThemHoaDonNhap(hoaDonNhap);
 
                         FormPhieuHoaDon formHoaDon = new FormPhieuHoaDon();
                         formHoaDon.hd_lbl.Text = "Hoá Đơn Nhập";
                         formHoaDon.ngaylap_lbl.Text = "Ngày lập: " + DateTime.Now.ToString();
-                        formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + current_nv.id_nv;
+                        formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + current_nv.IdNv;
                         formHoaDon.idhd_lbl.Text = "ID hoá đơn: " + id_hoa_don;
-                        formHoaDon.idncc_ch_lbl.Text = "ID nhà cung cấp: " + current_ncc.id_ncc;
+                        formHoaDon.idncc_ch_lbl.Text = "ID nhà cung cấp: " + current_ncc.IdNcc;
                         formHoaDon.them_dshh(qlnx);
                         formHoaDon.Show();
 
@@ -222,7 +222,7 @@ namespace DoAnCK
                     CuaHang current_ch = null;
                     for (int i = 0; i < kho.ds_cua_hang.Count; i++)
                     {
-                        if (kho.ds_cua_hang[i].ten_ch == DsNccCh_cb.Text)
+                        if (kho.ds_cua_hang[i].TenCh == DsNccCh_cb.Text)
                         {
                             current_ch = kho.ds_cua_hang[i];
                             break;
@@ -237,16 +237,16 @@ namespace DoAnCK
 
                             HoaDonXuat hoaDonXuat = new HoaDonXuat(qlnx, null, current_nv, current_ch, qlnx.tinh_tong_tien());
                             string id_hoa_don = hoaDonXuat.SetID() + (kho.ds_hoa_don_xuat.Count + 1);
-                            hoaDonXuat.id_hoa_don = id_hoa_don;
+                            hoaDonXuat.IdHoaDon = id_hoa_don;
 
                             kho.ThemHoaDonXuat(hoaDonXuat);
 
                             FormPhieuHoaDon formHoaDon = new FormPhieuHoaDon();
                             formHoaDon.hd_lbl.Text = "Hoá Đơn Xuất";
                             formHoaDon.ngaylap_lbl.Text = "Ngày lập: " + DateTime.Now.ToString();
-                            formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + current_nv.id_nv;
+                            formHoaDon.idnv_lbl.Text = "ID nhân viên lập: " + current_nv.IdNv;
                             formHoaDon.idhd_lbl.Text = "ID hoá đơn: " + id_hoa_don;
-                            formHoaDon.idncc_ch_lbl.Text = "ID cửa hàng: " + current_ch.id_ch;
+                            formHoaDon.idncc_ch_lbl.Text = "ID cửa hàng: " + current_ch.IdCh;
                             formHoaDon.them_dshh(qlnx);
                             formHoaDon.Show();
 
@@ -288,7 +288,7 @@ namespace DoAnCK
                     lanbel2.Text = "Nhà cung cấp";
                     foreach (NhaCungCap ncc in kho.ds_ncc)
                     {
-                        DsNccCh_cb.Items.Add(ncc.ten_ncc);
+                        DsNccCh_cb.Items.Add(ncc.TenNcc);
                     }
                 }
                 else
@@ -296,7 +296,7 @@ namespace DoAnCK
                     lanbel2.Text = "Cửa hàng";
                     foreach (CuaHang ch in kho.ds_cua_hang)
                     {
-                        DsNccCh_cb.Items.Add(ch.ten_ch);
+                        DsNccCh_cb.Items.Add(ch.TenCh);
                     }
                 }
             }

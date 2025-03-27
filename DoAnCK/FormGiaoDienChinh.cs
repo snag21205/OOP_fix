@@ -27,7 +27,7 @@ namespace DoAnCK
                 }
                 else
                 {
-                    NhanVien_lb.Text = "Nhân viên: " + formDangNhap.current_nv.ten_nv;
+                    NhanVien_lb.Text = "Nhân viên: " + formDangNhap.current_nv.TenNv;
                     Ngay_lb.Text = "Ngày " + DateTime.Now.ToString("dd/MM/yyyy");
                     OpenChildForm(new FormTrangChu());
                     current_nv = formDangNhap.current_nv;

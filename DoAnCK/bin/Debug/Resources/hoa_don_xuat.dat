@@ -1,34 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfHoaDonXuat xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <HoaDonXuat>
-    <id_hoa_don>HDX1</id_hoa_don>
-    <ngay_tao_don>2025-03-25T16:00:54.3328002+07:00</ngay_tao_don>
-    <qlnx>
+    <IdHoaDon>HDX1</IdHoaDon>
+    <NgayTaoDon>2025-03-27T20:30:28.7630235+07:00</NgayTaoDon>
+    <Qlnx>
       <ds_hang_hoa>
+        <HangHoa xsi:type="ThoiTrang">
+          <Id>TR04</Id>
+          <TenHang>AC Milan retro</TenHang>
+          <SoLuong>5</SoLuong>
+          <DonGia>270000</DonGia>
+          <Img>.\Resources\hang hoa img\thoi trang\Ac Milan Retro.jpg</Img>
+        </HangHoa>
+        <HangHoa xsi:type="GiaDung">
+          <Id>GD08</Id>
+          <TenHang>Chảo chống dính</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>300000</DonGia>
+          <Img>.\Resources\hang hoa img\gia dung\chao.jpg</Img>
+        </HangHoa>
+        <HangHoa xsi:type="ThoiTrang">
+          <Id>TR02</Id>
+          <TenHang>Manchester United retro</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>270000</DonGia>
+          <Img>.\Resources\hang hoa img\thoi trang\Manchester United Retro.jpg</Img>
+        </HangHoa>
         <HangHoa xsi:type="DienTu">
-          <id>DT03</id>
-          <ten_hang>Tai nghe Sony</ten_hang>
-          <so_luong>1</so_luong>
-          <don_gia>3000000</don_gia>
-          <img>.\Resources\hang hoa img\dien tu\tai_nghe.jpg</img>
+          <Id>DT06</Id>
+          <TenHang>Galaxy Watch 5</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>5000000</DonGia>
+          <Img>.\Resources\hang hoa img\dien tu\galaxy_watch.jpg</Img>
         </HangHoa>
       </ds_hang_hoa>
-    </qlnx>
-    <nv_lap>
-      <id_nv>NV0001</id_nv>
-      <ten_nv>Lee Min Hoo</ten_nv>
-      <tuoi>19</tuoi>
-      <gioi_tinh>true</gioi_tinh>
-      <dia_chi_nv>Sài Gòn</dia_chi_nv>
-      <username>nv0001</username>
-      <password>123456789</password>
-    </nv_lap>
-    <tong_tien>3000000</tong_tien>
-    <cua_hang>
-      <id_ch>CH0001</id_ch>
-      <ten_ch>Công ty TNHH Nam Bình</ten_ch>
-      <sdt_ch>0978654321</sdt_ch>
-      <dia_chi_ch>Phú Nhuận</dia_chi_ch>
-    </cua_hang>
+    </Qlnx>
+    <NvLap>
+      <IdNv>NV0001</IdNv>
+      <TenNv>Lee Min Hoo</TenNv>
+      <Tuoi>19</Tuoi>
+      <GioiTinh>true</GioiTinh>
+      <DiaChiNv>Sài Gòn</DiaChiNv>
+      <Username>nv0001</Username>
+      <Password>123456789</Password>
+    </NvLap>
+    <TongTien>6920000</TongTien>
+    <CuaHang>
+      <IdCh>CH0001</IdCh>
+      <TenCh>Công ty TNHH Nam Bình</TenCh>
+      <SdtCh>0978654321</SdtCh>
+      <DiaChiCh>Phú Nhuận</DiaChiCh>
+    </CuaHang>
   </HoaDonXuat>
 </ArrayOfHoaDonXuat>

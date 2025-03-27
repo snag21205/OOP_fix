@@ -14,10 +14,10 @@ namespace DoAnCK
         }
         public void SetProductInfo(HangHoa hh)
         {
-            id_bhdx.Text = hh.id.ToString();
-            sp_bhdx.Text = hh.ten_hang;
-            sl_bhdx.Text = hh.so_luong.ToString();
-            tt_bhdx.Text = String.Format("{0:N0}", hh.don_gia * hh.so_luong);
+            id_bhdx.Text = hh.Id.ToString();
+            sp_bhdx.Text = hh.TenHang;
+            sl_bhdx.Text = hh.SoLuong.ToString();
+            tt_bhdx.Text = String.Format("{0:N0}", hh.DonGia * hh.SoLuong);
         }
     }
 }

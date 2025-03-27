@@ -9,13 +9,44 @@ namespace DoAnCK
     [Serializable]
     public abstract class HoaDon : ISerializable
     {
-        public string id_hoa_don { get; set; }
-        public DateTime ngay_tao_don { get; set; }
-        public QuanLyNhapXuat qlnx { get; set; }
-        public NhanVien nv_lap { get; set; }
-        public ulong tong_tien { get; set; }
+        private string id_hoa_don;
+        private DateTime ngay_tao_don;
+        private QuanLyNhapXuat qlnx;
+        private NhanVien nv_lap;
+        private ulong tong_tien;
+
+        public string IdHoaDon
+        {
+            get { return id_hoa_don; }
+            set { id_hoa_don = value; }
+        }
+
+        public DateTime NgayTaoDon
+        {
+            get { return ngay_tao_don; }
+            set { ngay_tao_don = value; }
+        }
+
+        public QuanLyNhapXuat Qlnx
+        {
+            get { return qlnx; }
+            set { qlnx = value; }
+        }
+
+        public NhanVien NvLap
+        {
+            get { return nv_lap; }
+            set { nv_lap = value; }
+        }
+
+        public ulong TongTien
+        {
+            get { return tong_tien; }
+            set { tong_tien = value; }
+        }
 
         protected HoaDon() { }
+
         public HoaDon(QuanLyNhapXuat qlnx, string id_hoa_don, NhanVien nv_lap, ulong tong_tien)
         {
             this.ngay_tao_don = DateTime.Now;
@@ -49,19 +80,27 @@ namespace DoAnCK
     [Serializable]
     public class HoaDonNhap : HoaDon
     {
-        public NhaCungCap nha_cung_cap { get; set; }
+        private NhaCungCap nha_cung_cap;
+
+        public NhaCungCap NhaCungCap
+        {
+            get { return nha_cung_cap; }
+            set { nha_cung_cap = value; }
+        }
+
         private HoaDonNhap() { }
-        public HoaDonNhap(QuanLyNhapXuat qlnx, string id_hoa_don, NhanVien nv_lap, NhaCungCap nha_cung_cap, ulong tong_tien) : base(qlnx, id_hoa_don, nv_lap, tong_tien)
+
+        public HoaDonNhap(QuanLyNhapXuat qlnx, string id_hoa_don, NhanVien nv_lap, NhaCungCap nha_cung_cap, ulong tong_tien)
+            : base(qlnx, id_hoa_don, nv_lap, tong_tien)
         {
             this.nha_cung_cap = nha_cung_cap;
-            ngay_tao_don = DateTime.Now;
+            NgayTaoDon = DateTime.Now;
         }
 
         public override string SetID()
         {
             return "HDN";
         }
-
 
         public override void GetObjectData(SerializationInfo info, StreamingContext context)
         {
@@ -78,11 +117,20 @@ namespace DoAnCK
     [Serializable]
     public class HoaDonXuat : HoaDon
     {
-        public CuaHang cua_hang { get; set; }
-        private HoaDonXuat() { }
-        public HoaDonXuat(QuanLyNhapXuat qlnx, string id_hoa_don, NhanVien nv_lap, CuaHang cua_hang, ulong tong_tien) : base(qlnx, id_hoa_don, nv_lap, tong_tien)
+        private CuaHang cua_hang;
+
+        public CuaHang CuaHang
         {
-            ngay_tao_don = DateTime.Now;
+            get { return cua_hang; }
+            set { cua_hang = value; }
+        }
+
+        private HoaDonXuat() { }
+
+        public HoaDonXuat(QuanLyNhapXuat qlnx, string id_hoa_don, NhanVien nv_lap, CuaHang cua_hang, ulong tong_tien)
+            : base(qlnx, id_hoa_don, nv_lap, tong_tien)
+        {
+            NgayTaoDon = DateTime.Now;
             this.cua_hang = cua_hang;
         }
 

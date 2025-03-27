@@ -78,10 +78,10 @@ namespace DoAnCK
                 selectedRow.Cells[3].Value = DiaChi_tb.Text;
 
                 CuaHang chToUpdate = kho.ds_cua_hang[index];
-                chToUpdate.id_ch = IdCuaHang_tb.Text;
-                chToUpdate.ten_ch = TenCuaHang_tb.Text;
-                chToUpdate.sdt_ch = SdtCuaHang_tb.Text;
-                chToUpdate.dia_chi_ch = DiaChi_tb.Text;
+                chToUpdate.IdCh = IdCuaHang_tb.Text;
+                chToUpdate.TenCh = TenCuaHang_tb.Text;
+                chToUpdate.SdtCh = SdtCuaHang_tb.Text;
+                chToUpdate.DiaChiCh = DiaChi_tb.Text;
 
                 DanhSachCuaHang_dgv.Refresh();
                 kho.LuuDanhSachCH();
@@ -172,7 +172,7 @@ namespace DoAnCK
             {
                 foreach (CuaHang ch in kho.ds_cua_hang)
                 {
-                    DanhSachCuaHang_dgv.Rows.Add(ch.id_ch, ch.ten_ch, ch.sdt_ch, ch.dia_chi_ch);
+                    DanhSachCuaHang_dgv.Rows.Add(ch.IdCh, ch.TenCh, ch.SdtCh, ch.DiaChiCh);
                 }
 
                 DanhSachCuaHang_dgv.Enabled = DanhSachCuaHang_dgv.Rows.Count > 0;

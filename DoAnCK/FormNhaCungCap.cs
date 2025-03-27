@@ -46,7 +46,7 @@ namespace DoAnCK
             {
                 foreach (NhaCungCap ncc in kho.ds_ncc)
                 {
-                    DanhSachNhaCungCap_dgv.Rows.Add(ncc.id_ncc, ncc.ten_ncc, ncc.sdt_ncc, ncc.dia_chi_ncc);
+                    DanhSachNhaCungCap_dgv.Rows.Add(ncc.IdNcc, ncc.TenNcc, ncc.SdtNcc, ncc.DiaChiNcc);
                 }
 
                 DanhSachNhaCungCap_dgv.Enabled = DanhSachNhaCungCap_dgv.Rows.Count > 0;
@@ -96,10 +96,10 @@ namespace DoAnCK
                 selectedRow.Cells[3].Value = DiaChi_tb.Text;
 
                 NhaCungCap nccToUpdate = kho.ds_ncc[index];
-                nccToUpdate.id_ncc = IdNhaCungCap_tb.Text;
-                nccToUpdate.ten_ncc = TenNhaCungCap_tb.Text;
-                nccToUpdate.sdt_ncc = SdtNhaCungCap_tb.Text;
-                nccToUpdate.dia_chi_ncc = DiaChi_tb.Text;
+                nccToUpdate.IdNcc = IdNhaCungCap_tb.Text;
+                nccToUpdate.TenNcc = TenNhaCungCap_tb.Text;
+                nccToUpdate.SdtNcc = SdtNhaCungCap_tb.Text;
+                nccToUpdate.DiaChiNcc = DiaChi_tb.Text;
 
                 DanhSachNhaCungCap_dgv.Refresh();
                 kho.LuuDanhSachNCC();
