@@ -71,25 +71,10 @@ public class QuanLyNhapXuat
     {
         ds_hang_hoa.Add(hh);
     }
-
     public void xoa_hh(HangHoa hh)
     {
         ds_hang_hoa.Remove(hh);
     }
-
-    public void tang_sl(HangHoa hh)
-    {
-        hh.SoLuong++;
-    }
-
-    public void giam_sl(HangHoa hh)
-    {
-        if (hh.SoLuong > 1)
-        {
-            hh.SoLuong--;
-        }
-    }
-
     public void cap_nhat_sl(HangHoa hh, uint sl_moi)
     {
         hh.SoLuong = sl_moi;

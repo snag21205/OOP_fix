@@ -52,4 +52,63 @@
       <DiaChiNcc>Thủ Đức</DiaChiNcc>
     </NhaCungCap>
   </HoaDonNhap>
+  <HoaDonNhap>
+    <IdHoaDon>HDN2</IdHoaDon>
+    <NgayTaoDon>2025-03-28T09:51:27.3057582+07:00</NgayTaoDon>
+    <Qlnx>
+      <ds_hang_hoa>
+        <HangHoa xsi:type="DienTu">
+          <Id>DT01</Id>
+          <TenHang>Iphone 16</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>100000000</DonGia>
+          <Img>.\Resources\hang hoa img\dien tu\iphone.jpg</Img>
+        </HangHoa>
+        <HangHoa xsi:type="DienTu">
+          <Id>DT02</Id>
+          <TenHang>Laptop Dell XPS</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>20000000</DonGia>
+          <Img>.\Resources\hang hoa img\dien tu\laptop.jpg</Img>
+        </HangHoa>
+        <HangHoa xsi:type="DienTu">
+          <Id>DT03</Id>
+          <TenHang>Tai nghe Sony</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>3000000</DonGia>
+          <Img>.\Resources\hang hoa img\dien tu\tai_nghe.jpg</Img>
+        </HangHoa>
+        <HangHoa xsi:type="DienTu">
+          <Id>DT04</Id>
+          <TenHang>Máy ảnh Canon</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>2500000</DonGia>
+          <Img>.\Resources\hang hoa img\dien tu\may_anh.jpg</Img>
+        </HangHoa>
+        <HangHoa xsi:type="DienTu">
+          <Id>DT08</Id>
+          <TenHang>Máy lạnh</TenHang>
+          <SoLuong>1</SoLuong>
+          <DonGia>5000000</DonGia>
+          <Img>.\Resources\hang hoa img\dien tu\may_lanh.jpg</Img>
+        </HangHoa>
+      </ds_hang_hoa>
+    </Qlnx>
+    <NvLap>
+      <IdNv>NV0001</IdNv>
+      <TenNv>Lee Min Hoo</TenNv>
+      <Tuoi>19</Tuoi>
+      <GioiTinh>true</GioiTinh>
+      <DiaChiNv>Sài Gòn</DiaChiNv>
+      <Username>nv0001</Username>
+      <Password>123456789</Password>
+    </NvLap>
+    <TongTien>130500000</TongTien>
+    <NhaCungCap>
+      <IdNcc>NCC003</IdNcc>
+      <TenNcc>Tập đoàn Vinamilk</TenNcc>
+      <SdtNcc>0566544233</SdtNcc>
+      <DiaChiNcc>Bình Chánh</DiaChiNcc>
+    </NhaCungCap>
+  </HoaDonNhap>
 </ArrayOfHoaDonNhap>

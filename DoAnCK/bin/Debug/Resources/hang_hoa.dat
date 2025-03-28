@@ -3,28 +3,28 @@
   <HangHoa xsi:type="DienTu">
     <Id>DT01</Id>
     <TenHang>Iphone 16</TenHang>
-    <SoLuong>32</SoLuong>
+    <SoLuong>33</SoLuong>
     <DonGia>100000000</DonGia>
     <Img>.\Resources\hang hoa img\dien tu\iphone.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
     <Id>DT02</Id>
     <TenHang>Laptop Dell XPS</TenHang>
-    <SoLuong>20</SoLuong>
+    <SoLuong>21</SoLuong>
     <DonGia>20000000</DonGia>
     <Img>.\Resources\hang hoa img\dien tu\laptop.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
     <Id>DT03</Id>
     <TenHang>Tai nghe Sony</TenHang>
-    <SoLuong>12</SoLuong>
+    <SoLuong>13</SoLuong>
     <DonGia>3000000</DonGia>
     <Img>.\Resources\hang hoa img\dien tu\tai_nghe.jpg</Img>
   </HangHoa>
   <HangHoa xsi:type="DienTu">
     <Id>DT04</Id>
     <TenHang>Máy ảnh Canon</TenHang>
-    <SoLuong>15</SoLuong>
+    <SoLuong>16</SoLuong>
     <DonGia>2500000</DonGia>
     <Img>.\Resources\hang hoa img\dien tu\may_anh.jpg</Img>
   </HangHoa>
@@ -52,7 +52,7 @@
   <HangHoa xsi:type="DienTu">
     <Id>DT08</Id>
     <TenHang>Máy lạnh</TenHang>
-    <SoLuong>5</SoLuong>
+    <SoLuong>6</SoLuong>
     <DonGia>5000000</DonGia>
     <Img>.\Resources\hang hoa img\dien tu\may_lanh.jpg</Img>
   </HangHoa>
